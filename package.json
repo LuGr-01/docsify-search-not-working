@@ -1,0 +1,17 @@
+{
+   "scripts": {
+      "start": "docsify serve .",
+      "navgen": "rm -rf ./en/_sidebar.md ./de/_sidebar.md && cd en && docsify generate . && cd ../de && docsify generate .",
+      "serve": "serve ."
+   },
+   "dependencies": {
+      "docsify": "^4.12.2",
+      "docsify-copy-code": "^2.1.1",
+      "docsify-pagination": "^2.10.1",
+      "docsify-themeable": "^0.9.0"
+   },
+   "devDependencies": {
+      "docsify-cli": "^4.4.4",
+      "serve": "^14.0.1"
+   }
+}
